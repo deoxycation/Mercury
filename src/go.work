@@ -1,8 +1,9 @@
 go 1.24.4
 
 use (
-	./cli
-	./dsl
-	./package-sys
-	./runtime
+	./cmd/cli
+	./cmd/dsl
+	./cmd/package
+	./cmd/runtime
+	./internal
 )
